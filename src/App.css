@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.appTable {
+  margin-bottom: 0 !important;
+  border: 1px solid #edf1f8;
+}
+
+.appTable thead > tr > th {
+  vertical-align: middle;
+  border-bottom: 2px solid hsl(0, 0%, 87%);
+  padding: 22px;
+}
+
+.appTable-row-odd {
+  background: #fafbfd;
+  height: 54px;
+  vertical-align: middle;
+}
+.appTable-row-even {
+  height: 54px;
+  vertical-align: middle;
+}
+
+.app-table-header-class > th {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #878e97;
+  height: 54px;
+}
+/* Section to styled login tooltip */
+
+.tooltip {
+  font-size: 16px !important;
+}
+.tooltip-inner {
+  background-color: transparent !important;
+  max-width: none !important;
+}
+
+.tooltip .tooltip-arrow {
+  height: 0rem !important;
+}
+
+.bs-tooltip-top .tooltip-arrow::before {
+  border-top-color: rgba(255, 86, 107, 0.96) !important;
+  border-width: 0.5rem 0.5rem 0 !important;
+}
+
+.appTableRounded tbody tr:last-child td:first-child,
+tbody tr:last-child td:last-child {
+  border-bottom-left-radius: 16px !important;  
+  border-bottom-right-radius: 16px !important;    
+}
+
+.appTableRounded tbody tr:last-child {
+  border-block-color: transparent;   
+}
+
+.appTableRounded tbody tr:last-child td:first-child{
+  border-left-color: transparent;   
+ }
+
+.appTableRounded tbody tr:last-child td:last-child{
+  border-right-color: transparent;   
+ }
+
+.appTableRounded table tbody{
+  border: none !important;
+}
+
+.floatButton{
+	position:fixed;
+	width:5px;
+	height:5px;
+	bottom:100px;
+	right:40px;	
+	color:#FFF;
+	border-radius:50px;
+  z-index:50;
+}
+
+.MuiPaper-root {
+   border-radius: 16px !important; 
+}
+
+/* Change Autocomplete styles in Chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus input:-webkit-autofill,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border-bottom: 0px solid #ccc !important;
+  -webkit-text-fill-color: #707173 !important;
+  -webkit-box-shadow: 0 0 0px 100px #fff inset !important;
+  transition: background-color 5000s ease-in-out 0s !important;
+}
+
+/* End Section to styled login tooltip */
+
